@@ -10,7 +10,9 @@ A mouse distuber that contains 3 main behaviours using delta axes, Chase, Repel.
 
 You can view the sketch here - https://editor.p5js.org/mooshimango/sketches/eXqG64M0J
 
-The raw files can be found in [Mouse Disturber](https://github.com/mooshimango/Creative-Coding-Portfolio-/tree/main/Mouse%20Disturber)
+# The raw files can be found in [Mouse Disturber](https://github.com/mooshimango/Creative-Coding-Portfolio-/tree/main/Mouse%20Disturber)
+
+When creating this experiment, my main goal was to create something simple given 
 
 ``` l
 let mode = 0;
