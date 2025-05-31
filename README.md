@@ -10,6 +10,11 @@ A mouse distuber that contains 3 main behaviours using delta axes, Chase, Repel.
 
 You can view the sketch here - https://editor.p5js.org/mooshimango/sketches/eXqG64M0J
 
+# The raw files can be found in [Mouse Disturber](https://github.com/mooshimango/Creative-Coding-Portfolio-/tree/main/Mouse%20Disturber)
+
+When creating this experiment, my main goal was to create something simple given my rather lacking maths ability, but I knew I wanted to prioritise smooth responsivity when an object interacts with the mouse. I wanted to keep the three modes simple so that I could achieve a satisfying result without getting lost in complexity. The mode variable is assigned to the inbuilt mousePressed function, allowing the user to cycle through the different behaviours. The x and y variables are assigned to Mouse X and Mouse Y so that I couuld alter the behaviour of the circle based on the mouse position. The angle variable is used in the Orbit mode to alter the startuing angle in relation to x and y. Each mode is seperated my simple if statements that correspond to each behaviour, since I felt that this was the easiest way to implement the experiment considering the current scope of my knowledge. To create a slight trail on the background I used aplpha values to control the transparency of the background itself, which allows the previous frames to be displayed, creating a satisfying trail, which honestly took a while to figure out, since I coundn't remember whether or not p5.js draws objects once or at every new frame. When I was looking into the logistics of particle emmission on mouse movement, and trying to wrap my head around OOP and classes, I decided that it posed a bit too much of a challenge for me at the moment, although I know that once I learn it, the flexibility of my programming will improve a lot. I am glad how the mouse disturber turned out, but I do wish I was able to add some dynamic particle behaviour to elevate the depth of my experiment just a little bit more. 
+ 
+
 ``` l
 let mode = 0;
 let x = 300;
