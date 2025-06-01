@@ -62,3 +62,14 @@ function mousePressed() {
 }
 ```
 
+## Experiment 2 - Audio Visualiser
+
+![image](https://github.com/user-attachments/assets/f95f32a2-e4a1-41dc-88c7-41d4554ac601)
+
+An audio visualiser with four unique behaviours when recieving microphone input.
+
+You can view the sketch here - https://editor.p5js.org/mooshimango/sketches/42iR_HfxA
+
+# The raw files can be found in [Audio Visualiser](https://github.com/mooshimango/Creative-Coding-Portfolio-/tree/main/Audio%20Visualiser)
+
+
